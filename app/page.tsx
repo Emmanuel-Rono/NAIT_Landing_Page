@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function NAITLandingPage() {
@@ -30,9 +30,17 @@ export default function NAITLandingPage() {
       {/* Navbar */}
       <nav className="fixed w-full bg-black/70 backdrop-blur-xl border-b border-white/10 z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-          <h1 className="text-xl font-bold tracking-widest text-blue-400 drop-shadow-[0_0_14px_rgba(59,130,246,0.8)]">
-            NAIT
-          </h1>
+          <a href="#" className="flex items-center gap-3">
+            <Image
+              src="/nait-logo.png"
+              alt="NAIT logo"
+              width={52}
+              height={52}
+              unoptimized
+              className="h-[52px] w-[52px] rounded-lg bg-white/95 p-1 object-contain shadow-[0_0_12px_rgba(255,255,255,0.35)]"
+              priority
+            />
+          </a>
 
           <div className="hidden md:flex gap-8 text-sm uppercase tracking-wide">
             {navItems.map((item) => (
