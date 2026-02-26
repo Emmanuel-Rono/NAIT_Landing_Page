@@ -48,6 +48,8 @@ export default function NAITLandingPage() {
             </button>
           </div>
         </div>
+        
+
 
         {mobileOpen && (
           <div className="md:hidden bg-black border-t border-white/10 px-6 pb-4">
@@ -83,7 +85,7 @@ export default function NAITLandingPage() {
           className="mt-6 max-w-3xl text-lg md:text-xl text-gray-300"
         >
           We are building a vibrant community of Adventist professionals, students, and enthusiasts
-          in the technology space. We build capacity, collaborate on projects, organize summits,
+        of technology. We build capacity, collaborate on projects, organize summits,
           and leverage our God-given skills for the advancement of the Church and society.
         </motion.p>
 
