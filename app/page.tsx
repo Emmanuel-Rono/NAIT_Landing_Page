@@ -16,7 +16,7 @@ export default function NAITLandingPage() {
     { name: "Contact Us", link: "#contact" },
   ];
 
-  const whatsappLink = "https://whatsapp.com/channel/0029Vb6l6qg9mrGW7Onnet40";
+  const whatsappLink = "https://www.whatsapp.com/channel/0029Vb6l6qg9mrGW7Onnet40";
   const contactFormLink = "https://forms.gle/Snid5S7UBQEoPhEv6";
 
   return (
@@ -64,7 +64,7 @@ export default function NAITLandingPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
+     <section className="flex flex-col items-center text-center px-6 pt-10 md:pt-12 pb-6 md:pb-8">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -93,8 +93,6 @@ export default function NAITLandingPage() {
         >
           <a
             href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
             className="inline-block rounded-2xl px-10 py-6 text-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:scale-105 transition transform shadow-[0_0_25px_rgba(99,102,241,0.8)]"
           >
             Join NAIT
@@ -103,7 +101,7 @@ export default function NAITLandingPage() {
       </section>
 
       {/* About / Aim */}
-      <section id="about" className="py-24 px-6 max-w-6xl mx-auto text-center">
+      <section id="about" className="py-14 md:py-24 px-6 max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-blue-400">Our Aim</h2>
         <p className="text-lg text-gray-400 max-w-3xl mx-auto">
           To build a strong network of Adventists in technology for capacity building grounded
@@ -113,8 +111,8 @@ export default function NAITLandingPage() {
       </section>
 
       {/* Core Activities */}
-      <section id="activities" className="py-24 px-6 bg-white/5 backdrop-blur-md">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-purple-400">Core Activities</h2>
+      <section id="activities" className="py-14 md:py-24 px-6 bg-white/5 backdrop-blur-md">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 md:mb-16 text-purple-400">Core Activities</h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
           {[
@@ -158,7 +156,7 @@ export default function NAITLandingPage() {
       </section>
 
       {/* Differentiator */}
-      <section id="unique" className="py-24 px-6 max-w-6xl mx-auto text-center">
+      <section id="unique" className="py-14 md:py-24 px-6 max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-cyan-400">Key Differentiator</h2>
         <p className="text-lg text-gray-400 max-w-3xl mx-auto">
           NAIT is a faith-centered professional community grounded in Adventist values.
@@ -169,7 +167,7 @@ export default function NAITLandingPage() {
       </section>
 
       {/* NAIT Sabbath */}
-      <section id="sabbath" className="py-24 px-6 max-w-6xl mx-auto text-center bg-white/5 backdrop-blur-lg rounded-2xl">
+      <section id="sabbath" className="py-14 md:py-24 px-6 max-w-6xl mx-auto text-center bg-white/5 backdrop-blur-lg rounded-2xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-yellow-400">NAIT Sabbath</h2>
         <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-6">
           Be part of the inaugural NAIT Sabbath on <strong>May 30, 2026</strong>. <br />
@@ -177,8 +175,6 @@ export default function NAITLandingPage() {
         </p>
         <a
           href={whatsappLink}
-          target="_blank"
-          rel="noopener noreferrer"
           className="inline-block rounded-2xl py-6 px-10 bg-gradient-to-r from-yellow-400 to-orange-500 hover:scale-105 transition shadow-[0_0_25px_rgba(255,193,7,0.8)]"
         >
           View Channel Updates
@@ -186,7 +182,7 @@ export default function NAITLandingPage() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 px-6 bg-gradient-to-r from-blue-900/40 to-purple-900/40 backdrop-blur-lg">
+      <section id="contact" className="py-14 md:py-24 px-6 bg-gradient-to-r from-blue-900/40 to-purple-900/40 backdrop-blur-lg">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-400">Contact Us</h2>
           <p className="text-gray-400">
