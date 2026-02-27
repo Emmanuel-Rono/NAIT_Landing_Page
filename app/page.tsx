@@ -142,7 +142,7 @@ export default function NAITLandingPage() {
             {
               title: "Capacity-Building Meetups",
               description:
-                "Practical sessions including job searching & career mentorship, CV/portfolio development, project reviews, and technical bootcamps,",
+                "Practical sessions including job searching & career mentorship, CV/portfolio development, project reviews, and technical bootcamps, e.t.c",
             },
             {
               title: "Community",
