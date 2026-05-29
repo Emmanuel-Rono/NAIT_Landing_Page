@@ -273,7 +273,7 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <div className="pillar-title">trusted network</div>
+                <div className="pillar-title">Trusted network</div>
                 <p className="pillar-text">
                   Offering a trusted network of like-minded professionals who balance faith and innovation.
                 </p>
@@ -286,7 +286,7 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <div className="pillar-title">professional capacity</div>
+                <div className="pillar-title">Professional capacity</div>
                 <p className="pillar-text">
                   Strengthening professional capacity while reinforcing spiritual identity.
                 </p>
