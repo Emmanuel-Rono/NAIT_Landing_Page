@@ -32,7 +32,6 @@ export default function Home() {
             alt="NAIT logo"
             style={{ height: "40px", width: "auto" }}
           />
-          <span>NAIT</span>
         </a>
         <ul className="nav-links">
           <li>

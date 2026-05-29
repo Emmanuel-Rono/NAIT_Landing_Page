@@ -46,13 +46,7 @@ nav{
 }
 .nav-logo{display:flex;align-items:center;gap:.75rem;text-decoration:none}
 .nav-logo img{height:36px;width:auto;filter:brightness(1.2)}
-.nav-logo span{
-  font-family:var(--font-display);
-  font-size:1.05rem;font-weight:600;
-  background:linear-gradient(90deg,var(--gold),var(--violet));
-  -webkit-background-clip:text;background-clip:text;color:transparent;
-  letter-spacing:.02em;
-}
+/* Removed textual label beside logo */
 .nav-links{display:flex;gap:2rem;list-style:none}
 .nav-links a{
   color:var(--cream-muted);
