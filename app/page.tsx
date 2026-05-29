@@ -28,8 +28,9 @@ export default function Home() {
       <nav>
         <a className="nav-logo" href="#">
           <img
-            src="https://naitcommunity.vercel.app/nait-logo.png"
+            src="/nait-logo.png"
             alt="NAIT logo"
+            style={{ height: "40px", width: "auto" }}
           />
           <span>NAIT</span>
         </a>
@@ -314,7 +315,6 @@ export default function Home() {
         <div className="section-wrapper" style={{ textAlign: "center" }}>
           <span className="section-eyebrow reveal">5. First Milestone: NAITSababth#01</span>
           <h2 className="section-title reveal">NAITSababth#01 2026</h2>
-          <p className="section-body reveal">Officially inaugurate NAIT and set its agenda public.</p>
           <div className="event-card reveal">
             <div className="event-header">
               <span className="event-header-title">Inaugural NAITSababth#01</span>
