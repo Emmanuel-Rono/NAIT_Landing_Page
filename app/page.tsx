@@ -392,14 +392,14 @@ export default function Home() {
           <div className="contact-links reveal">
             <a
               className="contact-link"
-              href="https://qrco.de/bgq4Gx"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfWsHUGlqNGWaHtdBDK0-A7F9dN9YVEaCzlQMPUPXrJLIheUA/viewform"
               target="_blank"
               rel="noopener"
             >
               <svg viewBox="0 0 24 24">
                 <path d="M3 8l7.89 5.26a2 2 0 0 0 2.22 0L21 8M5 19h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z" />
               </svg>
-              Join NAIT
+              Contact us
             </a>
           </div>
         </div>
