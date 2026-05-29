@@ -52,7 +52,7 @@ export default function Home() {
         </ul>
         <a
           className="nav-cta"
-          href="https://whatsapp.com/channel/0029Vb6l6qg9mrGW7Onnet40"
+          href="https://qrco.de/bgq4Gx"
           target="_blank"
           rel="noopener"
         >
@@ -81,7 +81,7 @@ export default function Home() {
           <div className="hero-actions">
             <a
               className="btn-primary"
-              href="https://whatsapp.com/channel/0029Vb6l6qg9mrGW7Onnet40"
+              href="https://qrco.de/bgq4Gx"
               target="_blank"
               rel="noopener"
             >
@@ -369,9 +369,9 @@ export default function Home() {
                       strokeWidth="2"
                       aria-hidden="true"
                     >
-                      <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+                      <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 0 1-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
-                    Join NAIT
+                    Follow updates
                   </a>
                 </div>
               </div>
@@ -392,25 +392,14 @@ export default function Home() {
           <div className="contact-links reveal">
             <a
               className="contact-link"
-              href="https://forms.gle/Snid5S7UBQEoPhEv6"
+              href="https://qrco.de/bgq4Gx"
               target="_blank"
               rel="noopener"
             >
               <svg viewBox="0 0 24 24">
                 <path d="M3 8l7.89 5.26a2 2 0 0 0 2.22 0L21 8M5 19h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z" />
               </svg>
-              Send a Message
-            </a>
-            <a
-              className="contact-link"
-              href="https://whatsapp.com/channel/0029Vb6l6qg9mrGW7Onnet40"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg viewBox="0 0 24 24">
-                <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 0 1-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-              </svg>
-              WhatsApp Channel
+              Join NAIT
             </a>
           </div>
         </div>
