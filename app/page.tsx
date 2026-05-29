@@ -15,7 +15,7 @@ export default function Home() {
       },
       { threshold: 0.12 }
     );
-
+//...
     document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
     return () => {
